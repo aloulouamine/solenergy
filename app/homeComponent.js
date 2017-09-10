@@ -20,14 +20,11 @@ export default class HomeComponent extends Component {
 
   static navigationOptions = {
     title: 'Home',
+    header: null
   };
 
   constructor(props) {
     super(props);
-  }
-
-  componentWillMount(){
-    
   }
 
   render() {
