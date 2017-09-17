@@ -10,11 +10,11 @@ import {
 } from 'react-native';
 
 import ConfigComponent from './app/configComponent';
-import HomeComponent from './app/homeComponent';
+import homeComponent from './app/homeComponent';
 
-import { StackNavigator } from 'react-navigation';
+import { DrawerNavigator } from 'react-navigation';
 
-AppRegistry.registerComponent('solenergy', () => StackNavigator({
+AppRegistry.registerComponent('solenergy', () => DrawerNavigator({
+  Home: { screen: homeComponent },
   Config: { screen: ConfigComponent },
-  Home: { screen: HomeComponent },
 }));

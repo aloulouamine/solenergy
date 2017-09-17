@@ -18,10 +18,10 @@ import { VictoryBar } from "victory-native";
 
 export default class HomeComponent extends Component {
 
-  static navigationOptions = {
+ /*  static navigationOptions = {
     title: 'Home',
     header: null
-  };
+  }; */
 
   constructor(props) {
     super(props);
